@@ -3,7 +3,7 @@ function randomNumber(upper) {
 } 
 var counter = 0;
 while ( counter < 1000001 ) {
-  var randNum = randomNumber(6);
+  var randNum = randomNumber(8);
   document.write(randNum + ' ');
   counter += 1;
 }
